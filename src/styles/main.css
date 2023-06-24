@@ -1,0 +1,86 @@
+/* Carousel */
+
+#card-image-figure img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+#card-image-figure {
+  width: auto;
+  height: 200px;
+}
+
+.carousel-images img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.carousel-images {
+  width: auto;
+  height: 300px;
+}
+
+/* Pagination */
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 3rem 0;
+  gap: 8px;
+}
+
+.pagination .page-num {
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1.5px 1.5px 5px 0 white;
+}
+
+.pagination .page-num:hover,
+.pagination .active a {
+  color: white;
+  background-color: black;
+}
+
+/* Add to Cart Confirmation */
+#add-confirmation-overlay {
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 2;
+}
+
+#add-confirmation {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  box-shadow: 0 0 9px 3px lightgray;
+  z-index: 2;
+}
+
+#add-confirmation span {
+  font-size: 1.5rem;
+}
+
+#add-confirmation-button button {
+  box-shadow: 1px 3px 5px white;
+}
+
+/* Shopping Cart */
+#shopping-cart-container {
+  min-height: 100vh;
+}
+#delete-all-logo:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+  color: black !important;
+}

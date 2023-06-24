@@ -1,0 +1,23 @@
+#search-icon {
+  background-color: hsl(var(--b2) / var(--tw-bg-opacity));
+  border-radius: 0 0.5rem 0.5rem 0 !important;
+  height: 2.5rem;
+}
+#search-icon:hover {
+  background-color: rgb(21 94 117);
+  color: white;
+}
+#shopping-cart:hover {
+  color: white !important;
+}
+
+.form-control {
+  height: 2.5rem;
+}
+.input {
+  border-radius: 0.5rem 0 0 0.5rem !important;
+}
+.dropdown {
+  position: relative;
+  z-index: 999;
+}
